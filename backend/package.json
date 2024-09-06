@@ -1,0 +1,29 @@
+{
+    "name": "backend",
+    "description": "Backend for CourseReview.io",
+    "scripts": {
+        "start": "node src/index.ts",
+        "dev": "nodemon --files ./src/index.ts",
+        "build": "tsc"
+    },
+    "main": "src/index.js",
+    "devDependencies": {
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.16.5",
+        "nodemon": "^3.1.0",
+        "prisma": "^5.19.1",
+        "ts-node": "^10.9.2",
+        "tsc": "^2.0.4",
+        "typescript": "^5.5.4"
+    },
+    "private": true,
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2",
+        "express-session": "^1.18.0",
+        "google-auth-library": "^9.14.1"
+    }
+}
